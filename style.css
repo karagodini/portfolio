@@ -92,5 +92,9 @@ span {
 }
 
 .container-1-desc {
-
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #575859;
 }
