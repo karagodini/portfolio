@@ -7,7 +7,7 @@ html {
     box-sizing: inherit;
   }
   
-  body, h1, h2, h3, h4, h5, h6, ol, ul {
+  body, h3, h4, h5, h6, ol, ul {
     margin: 0;
     padding: 0;
     font-weight: normal;
@@ -22,10 +22,36 @@ body {
     font-family: 'Poppins', 'Lato', sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Lato';
+    font-weight: 600;
+    font-size: 43px;
+    line-height: 130%;
+    text-align: center;
+    color: #050C26;
+}
+
+h2 {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    text-align: center;
+    color: #575859;
+    width: 800px;
+    margin: 0 auto;
+}
+
 header {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 40px;
+    background: #FFF5F5;
 }
 
 .logo {
@@ -73,10 +99,12 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    background: #FFF5F5;
 }
 
 .container-1-1 {
     width: 550px;
+    margin-right: 50px;
 }
 
 .container-1-title {
@@ -97,4 +125,292 @@ span {
     font-size: 18px;
     line-height: 160%;
     color: #575859;
+}
+
+.container-1-2-img {
+    margin-top: 280px;
+}
+
+.container-2 {
+    margin-top: 120px;
+}
+
+.container-2-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.container-2-block {
+    padding-left: 97px;
+}
+
+.container-2-block-text {
+    font-family: 'Lato';
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 150%;
+    color: #050C26;
+}
+
+.container-3 {
+    margin: 140px 0;
+}
+
+.container-3-blocks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-3-block {
+    background: #FFFFFF;
+    border: 1px solid rgba(5, 12, 38, 0.05);
+    border-radius: 10px;
+    width: 263px;
+    margin: 0 15px;
+    padding: 27px 22px;
+}
+
+.container-3-block-imgs {
+    background: url(images/container-3-img-fon1.png) no-repeat;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.container-3-block-fon {
+    background: url(images/container-3-img-fon2.png) no-repeat;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.container-3-block-img {
+    margin: auto;
+}
+
+.container-3-block-title {
+    font-family: 'Lato';
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 150%;
+    text-align: center;
+    color: #050C26;
+}
+
+.container-3-block-desc {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+    color: #575859;
+    margin-bottom: 25px;
+}
+
+.container-3-block-btn {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    background: #3988FF;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.container-4 {
+    margin-bottom: 140px;
+}
+
+.container-4-title {
+    width: 600px;
+}
+
+.container-4-title h1 {
+    text-align: left;
+}
+
+.container-4-title h2 {
+    text-align: left;
+    margin: 0;
+    width: 640px;
+}
+
+.container-4-bloks {
+    margin-top: 70px;
+}
+
+.container-4-bloks1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-4-bloks2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.container-4-blok {
+    width: 360px;
+    padding: 40px;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(52px);
+    border-radius: 10px;
+    margin: 0 15px;
+}
+
+.container-4-blok:hover {
+    background: url(images/container-4-block-fon.png) no-repeat;
+}
+
+.container-4-blok-content {
+    background: #F3F3F3;
+    border-radius: 10px;
+    padding: 60px 20px;
+}
+
+.container-4-blok:hover .container-4-blok-content {
+    background: linear-gradient(180deg, #D93059 0%, #D95B7A 100%);
+}
+
+.container-4-blok-title {
+    font-family: 'Lato';
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 150%;
+    text-align: center;
+    color: #050C26;
+}
+
+.container-4-blok:hover .container-4-blok-content p {
+    color: #FFFFFF;
+}
+
+.container-4-blok-desc {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+    color: #575859;
+    margin-bottom: 40px;
+}
+
+.content-4-block-img-fon {
+    background: url(images/container-4-block-img-fon.png) no-repeat;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.container-4-blok-img {
+    margin: auto;
+    width: 14px;
+}
+
+.container-5 {
+    margin-bottom: 140px;
+}
+
+.container-5-price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.container-5-price-block {
+    background: #FFFFFF;
+    border: 1px solid rgba(153, 153, 153, 0.14);
+    border-radius: 10px;
+    margin: 0 15px;
+    width: 360px;
+    height: 550px;
+}
+
+.price-center {
+    background: linear-gradient(180deg, #D9315A 0%, #F3678A 100%);
+}
+
+.price-center p {
+    color: #FFFFFF;
+}
+
+.price-center a {
+    color: #FFFFFF;
+    background: #3988FF;
+}
+
+.container-5-price-title {
+    font-family: 'Lato';
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 150%;
+    text-align: center;
+    color: #050C26;
+}
+
+hr {
+    width: 100%;
+    background: rgba(153, 153, 153, 0.14);
+    height: 1px;
+    border: none;
+}
+
+.container-5-price-cena {
+    font-family: 'Lato';
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 140%;
+    text-align: center;
+    color: #050C26;
+}
+
+.container-5-price-desc {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    text-align: center;
+    color: #575859;
+    margin-top: -35px;
+    margin-bottom: 40px;
+}
+
+.container-5-price-text {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 160%;
+    text-align: center;
+    color: #575859;
+}
+
+.bottom {
+    margin-bottom: 30px;
+}
+
+.container-5-price-btn {
+    font-family: 'Lato';
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 150%;
+    text-align: center;
+    color: #3988FF;
+    padding: 15px 30px;
+    border: 1px solid #3988FF;
+    border-radius: 5px;
+    margin-left: 100px;
 }
