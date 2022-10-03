@@ -787,6 +787,46 @@ footer {
     .container-3-block-desc {
         font-size: 13px;
     }
+
+    .container-4 {
+        margin-bottom: 80px;
+    }
+
+    .container-4-bloks1 {
+        display: block;
+    }
+
+    .container-4-blok {
+        margin: 15px auto;
+        width: 320px;
+    }
+
+    .container-4-bloks2 {
+        display: block;
+        margin: 0 auto;
+        width: 320px;
+    }
+
+    .container-4-blok-content {
+        padding: 20px 15px;
+    }
+
+    .container-4-blok-title {
+        font-size: 20px;
+    }
+
+    .container-4-blok-desc {
+        font-size: 12px;
+    }
+
+    .container-5-price {
+        display: block;
+    }
+
+    .container-5-price-block {
+        margin: 15px auto;
+        width: 320px;
+    }
 }
 
 @media (min-width: 500px) {
