@@ -764,6 +764,29 @@ footer {
         margin: 0 auto;
         margin-bottom: 15px;
     }
+
+    .container-3-block-imgs {
+        background: none;
+        height: 40px;
+    }
+
+    .container-3-block-fon {
+        background: none;
+        height: 40px;
+    }
+
+    .container-3-block-btn {
+        margin-left: 50px;
+        font-size: 13px;
+    }
+
+    .container-3-block-title {
+        font-size: 20px;
+    }
+
+    .container-3-block-desc {
+        font-size: 13px;
+    }
 }
 
 @media (min-width: 500px) {
