@@ -8,27 +8,27 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,900;1,700&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,900;1,700&family=Poppins:wght@400;500&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <a class="logo" href="#">INNOVATED</a>
         <div class="menu">
-            <a href="">Home</a>
-            <a href="">About</a>
-            <a href="">Features</a>
-            <a href="">Services</a>
-            <a href="">Pricing</a>
+            <a href="#">Home</a>
+            <a href="#about">About</a>
+            <a href="#features">Features</a>
+            <a href="#services">Services</a>
+            <a href="#pricing">Pricing</a>
         </div>
-        <a class="header-btn" href="#">Contact</a>
+        <a class="header-btn" href="#contact">Contact</a>
         <div class="mobile">
             <button onclick="myFunction()" class="dropbtn">Меню</button>
               <div id="myDropdown" class="mobile-content">
                 <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Features</a>
-                <a href="#">Services</a>
-                <a href="#">Pricing</a>
+                <a href="#about">About</a>
+                <a href="#features">Features</a>
+                <a href="#services">Services</a>
+                <a href="#pricing">Pricing</a>
               </div>
             </div>
     </header>
@@ -43,7 +43,7 @@
                 <img class="container-1-2-img" src="images/container-1.png" alt="">
             </div>
         </div>
-        <div class="container-2">
+        <div class="container-2" id="about">
             <h1>Transforming brands with creativity</h1>
             <h2>As a rule the organization settles on the inventive and media choices. Regularly it supplies supporting statistical surveying too, and may even be associated.</h2>
             <div class="container-2-content">
@@ -66,7 +66,7 @@
                 </div>
             </div>
         </div>
-        <div class="container-3">
+        <div class="container-3" id="features">
             <h1>We have impressive Template Features</h1>
             <h2>Advertising office is a business that helps promoters in all phases of the advertising procedure – from record administration and intending to message creation.</h2>
             <div class="container-3-blocks">
@@ -76,7 +76,7 @@
                     </div>
                     <p class="container-3-block-title">High quality</p>
                     <p class="container-3-block-desc">An agency philosophy is distinctive features.</p>
-                    <a class="container-3-block-btn" href="">Read More</a>
+                    <a class="container-3-block-btn" href="#contact">Подробнее</a>
                 </div>
                 <div class="container-3-block">
                     <div class="container-3-block-imgs">
@@ -84,7 +84,7 @@
                     </div>
                     <p class="container-3-block-title">User Friendly</p>
                     <p class="container-3-block-desc">An agency philosophy is distinctive features.</p>
-                    <a class="container-3-block-btn" href="">Read More</a>
+                    <a class="container-3-block-btn" href="#contact">Подробнее</a>
                 </div>
                 <div class="container-3-block">
                     <div class="container-3-block-imgs">
@@ -92,7 +92,7 @@
                     </div>
                     <p class="container-3-block-title">Notifications</p>
                     <p class="container-3-block-desc">An agency philosophy is distinctive features.</p>
-                    <a class="container-3-block-btn" href="">Read More</a>
+                    <a class="container-3-block-btn" href="#contact">Подробнее</a>
                 </div>
                 <div class="container-3-block">
                     <div class="container-3-block-fon">
@@ -100,11 +100,11 @@
                     </div>
                     <p class="container-3-block-title">24/7 Support</p>
                     <p class="container-3-block-desc">An agency philosophy is distinctive features.</p>
-                    <a class="container-3-block-btn" href="">Read More</a>
+                    <a class="container-3-block-btn" href="#contact">Подробнее</a>
                 </div>
             </div>
         </div>
-        <div class="container-4">
+        <div class="container-4" id="services">
                 <h1>Our best services to solve Your problems.</h1>
                 <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor tincidunt neque vulputate vel sit ornare in ac. Aenean integer amet viverra sed gravida.</h2>
             <div class="container-4-bloks">
@@ -180,7 +180,7 @@
                 </div>
             </div>
         </div>
-        <div class="container-5">
+        <div class="container-5" id="pricing">
             <h2>THE BEST OFFERS</h2>
             <h1>OUR PRICING PLAN</h1>
             <div class="container-5-price">
@@ -219,6 +219,48 @@
                 </div>
             </div>
         </div>
+        <div class="container-6" id="contact">
+            <div class="contact-links">
+                <div class="contact-link-phone">
+                    <div class="contact-link-phone-title">
+                        <a href="tel:+79892735701"><img class="contact-link-phone-img" src="images/phone.png" alt=""></a>
+                        <p class="contact-link-title">Телефон</p>
+                    </div>
+                    <a class="contact-link-btn" href="tel:+79892735701">+7 989 273 57 01</a>
+                </div>
+                <div class="contact-link-phone">
+                    <div class="contact-link-phone-title">
+                        <a href="#"><img class="contact-link-phone-img" src="images/whatsapp.png" alt=""></a>
+                        <p class="contact-link-title">WhatsApp</p>
+                    </div>
+                    <a class="contact-link-btn" href="">+7 989 273 57 01</a>
+                </div>
+                <div class="contact-link-phone">
+                    <div class="contact-link-phone-title">
+                        <a href="#"><img class="contact-link-phone-img" src="images/telegram.png" alt=""></a>
+                        <p class="contact-link-title">Telegram</p>
+                    </div>
+                    <a class="contact-link-btn" href="">+7 989 273 57 01</a>
+                </div>
+                <div class="contact-link-phone">
+                    <div class="contact-link-phone-title">
+                        <a href="mailto:karagodini@yandex.ru"><img class="contact-link-phone-img" src="images/mail.png" alt=""></a>
+                        <p class="contact-link-title">Mail</p>
+                    </div>
+                    <a class="contact-link-btn" href="mailto:karagodini@yandex.ru">karagodini@yandex.ru</a>
+                </div>
+            </div>
+            <div class="contact-form">
+                <h1 class="contact-h1">Контакты</h1>
+                <p class="contact-form-title">Имя*</p>
+                <hr class="contact-form-hr">
+                <p class="contact-form-title">Телефон*</p>
+                <hr class="contact-form-hr">
+                <p class="contact-form-title">Mail*</p>
+                <hr class="contact-form-hr hr-btn">
+                <a class="contact-form-btn" href="">Отправить</a>
+            </div>
+        </div>
     </main>
 
     <footer>
@@ -227,6 +269,7 @@
     </footer>
 
     <script src="mobile-menu.js"></script>
+    <script src="index.js"></script>
 
 </body>
 </html>

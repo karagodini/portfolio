@@ -19,7 +19,7 @@ html {
   }
 
 body {
-    font-family: 'Poppins', 'Lato', sans-serif;
+    font-family: 'Poppins', 'Lato', 'Montserrat', sans-serif;
 }
 
 a {
@@ -411,7 +411,7 @@ progress:after {
     background: #3988FF;
     border-radius: 5px;
     text-decoration: none;
-    margin-left: 30px;
+    margin-left: 50px;
 }
 
 .container-4 {
@@ -603,6 +603,86 @@ hr {
     margin-left: 100px;
 }
 
+.container-6 {
+    background: #050C26;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.contact-link-phone-title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: -30px;
+}
+
+.contact-link-phone-img {
+    margin-right: 20px;
+}
+
+.contact-link-title {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 39px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.contact-link-btn {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.contact-form {
+    background-color: #FFFFFF;
+    margin-left: 500px;
+    height: 500px;
+    padding: 0 66px;
+}
+
+.contact-h1 {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 68px;
+    color: #000000;
+}
+
+.contact-form-title {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+    margin-top: 40px;
+}
+
+.contact-form-hr {
+    margin-top: -10px;
+}
+
+.hr-btn {
+    margin-bottom: 70px;
+}
+
+.contact-form-btn {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    padding: 16px 40px;
+    background-color: #3988FF;
+}
+
+
 footer {
     background: #050C26;
 }
@@ -612,7 +692,7 @@ footer {
     font-weight: 400;
     font-size: 18px;
     line-height: 160%;
-    color: #575859;
+    color: #FFFFFF;
     text-align: center;
     margin-bottom: 0px;
     padding-bottom: 20px;
@@ -776,7 +856,7 @@ footer {
     }
 
     .container-3-block-btn {
-        margin-left: 50px;
+        margin-left: 60px;
         font-size: 13px;
     }
 
@@ -819,13 +899,83 @@ footer {
         font-size: 12px;
     }
 
+    .container-5 {
+        margin-bottom: 50px;
+    }
+
     .container-5-price {
         display: block;
     }
 
     .container-5-price-block {
-        margin: 15px auto;
+        margin: 30px auto;
         width: 320px;
+        height: 450px;
+    }
+
+    .container-5-price-title {
+        font-size: 20px;
+    }
+
+    .container-5-price-cena {
+        font-size: 30px;
+    }
+
+    .container-5-price-desc {
+        font-size: 13px;
+    }
+
+    .container-5-price-text {
+        font-size: 15px;
+    }
+
+    .container-5-price-btn {
+        font-size: 20px;
+        margin-left: 80px;
+        padding: 10px 30px;
+    }
+
+    .container-6 {
+        /*display: block;*/
+        flex-direction: column-reverse;
+        margin-bottom: 0;
+    }
+
+    .contact-form {
+        margin-left: 0;
+        margin-top: -10px;
+    }
+
+    .contact-form-title {
+        font-size: 15px;
+    }
+
+    .contact-form-btn {
+        font-size: 15px;
+        padding: 14px 40px;
+    }
+
+    .contact-link-title {
+        display: none;
+    }
+
+    .contact-link-btn {
+        display: none;
+    }
+
+    .contact-links {
+        display: flex;
+        height: 50px;
+        padding-top: 10px;
+    }
+
+    .contact-link-phone {
+        padding: 0 20px;
+    }
+
+    .footer-copyright {
+        font-size: 13px;
+        padding-bottom: 10px;
     }
 }
 
