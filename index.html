@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,900;1,700&family=Poppins:wght@400;500&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <header id="header">
         <a class="logo" href="#">INNOVATED</a>
         <div class="menu">
             <a href="#">Home</a>
@@ -201,7 +201,7 @@
                     <a class="container-5-price-btn popup-basic_open" href="">Purchase</a>
                 </div>
                 <div class="container-5-price-block price-center">
-                    <p class="container-5-price-title">Business</p>
+                    <p class="container-5-price-title">BUSINESS</p>
                     <hr>
                     <p class="container-5-price-cena">$ 30</p>
                     <p class="container-5-price-desc">Per of month</p>
@@ -209,10 +209,10 @@
                     <p class="container-5-price-text">Mail Support</p>
                     <p class="container-5-price-text">25 Domains</p>
                     <p class="container-5-price-text bottom">No License</p>
-                    <a class="container-5-price-btn open-popup2" href="">Purchase</a>
+                    <a class="container-5-price-btn popup-Business_open" href="">Purchase</a>
                 </div>
                 <div class="container-5-price-block">
-                    <p class="container-5-price-title">Premium</p>
+                    <p class="container-5-price-title">PREMIUM</p>
                     <hr>
                     <p class="container-5-price-cena">$ 50</p>
                     <p class="container-5-price-desc">Per of month</p>
@@ -220,7 +220,7 @@
                     <p class="container-5-price-text">Mail Support</p>
                     <p class="container-5-price-text">40 Domains</p>
                     <p class="container-5-price-text bottom">No License</p>
-                    <a class="container-5-price-btn open-popup" href="">Purchase</a>
+                    <a class="container-5-price-btn popup-Premium_open" href="">Purchase</a>
                 </div>
             </div>
         </div>
@@ -242,9 +242,61 @@
                     </div>
                 </label>
                 <label>
-                    <textarea name="message"></textarea>
+                    <input type="email" name="email">
                     <div class="label__text">
-                        Ваше сообщение
+                        Ваш email
+                    </div>
+                </label>
+                <button type="submit">Отправить</button>
+            </div>
+        </div>
+
+        <div class="popup-Business_bg">
+            <div class="popup-Business">
+                <p class="popup-title">BUSINESS</p>
+                <img class="close-Business" src="images/Close.png" alt="">
+                <label>
+                    <input type="text" name="name">
+                    <div class="label__text">
+                        Ваше имя
+                    </div>
+                </label>
+                <label>
+                    <input type="tel" name="tel">
+                    <div class="label__text">
+                        Ваш телефон
+                    </div>
+                </label>
+                <label>
+                    <input type="email" name="email">
+                    <div class="label__text">
+                        Ваш email
+                    </div>
+                </label>
+                <button type="submit">Отправить</button>
+            </div>
+        </div>
+
+        <div class="popup-Premium_bg">
+            <div class="popup-Premium">
+                <p class="popup-title">PREMIUM</p>
+                <img class="close-Premium" src="images/Close.png" alt="">
+                <label>
+                    <input type="text" name="name">
+                    <div class="label__text">
+                        Ваше имя
+                    </div>
+                </label>
+                <label>
+                    <input type="tel" name="tel">
+                    <div class="label__text">
+                        Ваш телефон
+                    </div>
+                </label>
+                <label>
+                    <input type="email" name="email">
+                    <div class="label__text">
+                        Ваш email
                     </div>
                 </label>
                 <button type="submit">Отправить</button>
